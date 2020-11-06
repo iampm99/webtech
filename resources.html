@@ -1,0 +1,49 @@
+<header >
+<img class="w3-rectangle" src="F:/gw.jpg" width="100% ">
+<img class="w3-rectangle" src="F:/lake.jpg" width="100% ">
+<img class="w3-rectangle" src="F:/ice.jpg" width="100% ">
+</header>
+<script>
+// Automatic Slideshow - change image every 3 seconds var myIndex = 0;
+carousel();
+function carousel() { var i;
+var x = document.getElementsByClassName("w3-rectangle"); for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";
+}
+myIndex++;
+if (myIndex > x.length) {myIndex = 1} x[myIndex-1].style.display = "block"; setTimeout(carousel,
+3000);
+}
+</script>
+<section class="w3-container w3-center w3-content" style="max-width:600px">
+<h2 class="para1"><u>GROUND WATER</u></h2>
+<p class="para">
+Groundwater is the water present beneath Earth's surface in soil pore spaces and in the fractures of rock
+formations. A unit of rock or an unconsolidated deposit is called an aquifer when it can yield a usable
+quantity of water. The depth at which soil pore spaces or fractures and voids in rock become completely
+saturated with water is called the water table. Groundwater is recharged from the surface; it may
+discharge from the surface naturally at springs and seeps, and can form oases or wetlands.</p>
+<h2 class="para1"><u>EXPENSIVE WATER ACCROSS WORLD</u></h2>
+<p class="para"> Water provision includes the production and distribution of water. Costs comprise
+establishment cost, which includes salaries and wages; electricity charges; chemicals for the treatment of
+water; general repairs and maintenance of plant and machinery; cost of raw water where applicable; and
+interest payments. For the reason that water is drawn from different sources and distances, the structure of
+costs varies between different cities, often even widely.
+<b><i>OVER INDIA</i></b>Per unit costs (kl) of water production and distribution vary between a low
+of Rs. 3.22 in Pune,Rs. 2.67 in Allahabad, and Rs. 3.69in Agra, and a high of Rs. 12.98 in Bangalore
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+<body>
+<div data-ng-app="" data-ng-init="quantity=1;price=20">
+<h2>Water Cost Calculator</h2>
+Quantity: <input type="number" ng-model="quantity"> Price: <input type="number" ng-model="price">
+<p><b>Total in Rupees:</b> {{quantity * price}}</p>
+</div>
+</p>
+<p class="para">A World Bank study of water pricing experiences classifies countries as high,
+medium and low according to what it calls a “water pricing progress index” (WPPI). It prepared the index
+using two criteria, viz., current pricing practices and current mode of funding (The World Bank, 1997).
+Countries that used some economic pricing method or at the very least, recovered full operation and
+maintenance costs and a portion of capital and maintenance costs and a portion of capital costs from users
+were grouped in the high progress category. Countries which financed water systems with governmental
+resources were categorised as low progress countries. </p>
+</section>
